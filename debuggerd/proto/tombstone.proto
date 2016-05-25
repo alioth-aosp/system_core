@@ -20,6 +20,7 @@ message Tombstone {
   string build_fingerprint = 2;
   string revision = 3;
   string timestamp = 4;
+  string bootleggers_version = 1001;
 
   uint32 pid = 5;
   uint32 tid = 6;
